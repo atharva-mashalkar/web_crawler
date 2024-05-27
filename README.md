@@ -20,7 +20,7 @@ The Web Crawler is a Python-based tool designed to traverse and extract informat
    git clone https://github.com/atharva-mashalkar/web_crawler.git
    cd web_crawler
    ```
-2. **Install Dependencies
+2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
     ```
@@ -39,20 +39,20 @@ Replace inital_urls in the web_crawler.py file with the URL of the website you w
 ## Customization
 You can customize the behavior of the web crawler by modifying the following files:
 
-- **web_crawler.py: Main script to start the crawler.
-- **handle_downloads.py: Manages downloading and saving web content.
-- **handle_error.py: Contains error handling logic.
-- **handle_visited_unvisited.py: Manages the lists of visited and unvisited URLs.
-- **text_extraction.py: Handles text extraction from web pages.
+- **web_crawler.py: Main script to start the crawler.**
+- **handle_downloads.py: Manages downloading and saving web content.**
+- **handle_error.py: Contains error handling logic.**
+- **handle_visited_unvisited.py: Manages the lists of visited and unvisited URLs.**
+- **text_extraction.py: Handles text extraction from web pages.**
 
 ## Project Structure
 
-- **web_crawler.py: Main script to initiate and control the web crawler.
-- **handle_downloads.py: Module to manage downloading and saving web page content.
-- **handle_error.py: Module for error handling and logging.
-- **handle_visited_unvisited.py: Module to manage tracking of visited and unvisited URLs.
-- **text_extraction.py: Module to extract and process text data from web pages.
-- **requirements.txt: List of Python dependencies.
+- **web_crawler.py: Main script to initiate and control the web crawler.**
+- **handle_downloads.py: Module to manage downloading and saving web page content.**
+- **handle_error.py: Module for error handling and logging.**
+- **handle_visited_unvisited.py: Module to manage tracking of visited and unvisited URLs.**
+- **text_extraction.py: Module to extract and process text data from web pages.**
+- **requirements.txt: List of Python dependencies.**
 
 ## License
 

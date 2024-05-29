@@ -39,7 +39,7 @@ The Web Crawler is a Python-based tool designed to traverse and extract informat
 2. For Dynamic Crawling
    For website which render JavaScript content use the below patch
    ```sh
-   python web_crawler.py --use_selenium --cookie_class << pass class name of the cookie click button on you required domain >>
+   python web_crawler.py --use_selenium --cookie_class << provide class name of the cookie click button on you required domain >>
    ```
    This will use Selenium to load JavaScript content from your required website.
 
